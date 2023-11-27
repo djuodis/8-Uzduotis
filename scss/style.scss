@@ -5,17 +5,16 @@
 @import 'buttons';
 @media (max-width: 768px) {
   .tabs {
-    width: 80%;
+    width: 6  0%;
     text-align: center;
   }
  
   body {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   img {
-    min-height: 50px;
-    min-width: 80%;
+    height: 220px;
   }
   .tabs label {
     min-width: 50%;
@@ -30,9 +29,9 @@
   }
  
   button, button::after {
-    width: 100px;
-    height: 25px;
-    font-size: 9px;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
     box-shadow: 3px 0px 0px darkblue;
   }
 }
